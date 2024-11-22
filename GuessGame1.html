@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Coin Guessing Game</h1>
+        <div class="bowls">
+            <div class="bowl" id="bowl1">❓</div>
+            <div class="bowl" id="bowl2">❓</div>
+        </div>
+        <p id="instruction">Guess the coins under the bowls (H or T):</p>
+        <input type="text" id="guess1" maxlength="1" placeholder="First Coin (H/T)">
+        <input type="text" id="guess2" maxlength="1" placeholder="Second Coin (H/T)">
+        <button id="submitGuess">Submit Guess</button>
+
+        <p id="result"></p>
+        <p>Attempts: <span id="attempts">0</span></p>
+        <button id="restartButton" style="display:none;">Restart Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
